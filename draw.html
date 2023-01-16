@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="draw.css">
     <title>Document</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div class="frame"> 
@@ -13,18 +19,24 @@
         </header>
         <main>
             <p class="font-Title">Draw:</p>
-
-            <p class="font-AN">Bear working late</p>
+            <div class="prompt-box">
+                <p class="font-AN">Bear working late</p>
+            </div>
+            
             <div class="countdown">
                 <svg viewBox="-50 -50 100 100" stroke-width="10">
                   <circle r="45"></circle>
                   <circle r="45" stroke-dasharray="282.7433388230814" stroke-dashoffset="282.7433388230814px"></circle>
                 </svg>
             </div>
-            <p>Keep in mind your art will be displayed in a 4:3 aspect ratio!</p>
-            <div class="draw-button">
-                <div class="photo"></div>
-                <div class="upload"></div>
+            <p class="font-txt">Keep in mind your art will be displayed in a 4:3 aspect ratio!</p>
+            <div class="buttons">
+                <div class="photo">
+                    <p class="button-txt">Photo</p>
+                </div>
+                <div class="upload">
+                    <p class="button-txt">Upload</p>
+                </div>
             </div>
         </main>
     </div>  
