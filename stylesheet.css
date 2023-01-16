@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.frame{
+    background-color: #f0fbf7;
+    width: 360px;
+    height: 740px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+}
+
+header{
+    background-color: #5375E6;
+    width: 360px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+    border-bottom: black, 1px;
+
+}
+
+.account{
+    background-image:url('profile_themeless.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.store{
+    background-image: url(Resources/Icons/coin.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.search{
+    background-image: url(Resources/Icons/search.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.music{
+    background-image: url(Resources/Icons/Theming/music_themeless.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.art{
+    background-image: url('mask S.jpg');
+    background-size: 100% 100%;
+    min-width: 300px;
+    min-height: 225px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+.art2{
+    background-image: url('Ilse_anker.png');
+    background-size: 100% 100%;
+    min-width: 300px;
+    min-height: 225px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+
+
+footer{
+    background-color: #884EFC;
+    width: 360px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.draw-button{
+    background-color: #5375E6;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    margin:-20px;
+}
+
+.rating-icon{
+    background-image: url(Resources/Icons/Theming/leaderboard_themeless.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.draw-icon{
+    background-image: url(Resources/Icons/draw.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 110px;
+    height: 110px;  
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.score-icon{
+    background-image: url(Resources/Icons/results.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+}
