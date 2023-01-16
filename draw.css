@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -19,11 +20,26 @@ body{
 
 .font-Title{
   font-size: 50;
-  margin-top: 20px;
+  margin-top: -23px;
+  font-family: 'Almarai', sans-serif;
 }
 
 .font-txt{
+  font-family: 'Almarai', sans-serif;
+  font-size: 12;
+  text-align: center;
+  margin-top: 30px;
+}
 
+.prompt-box {
+  margin-top: 20px;
+  width: 300px;
+  height: 80px;
+}
+.font-AN{
+  font-size: 25;
+  font-family: 'Almarai', sans-serif;
+  text-align: center;
 }
 
 header{
@@ -35,7 +51,7 @@ header{
 }
 
 .music{
-    background-image: url(  );
+    background-image: url(Resources/Icons/Theming/Light\ Theme/music_theme_light.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 50px;
@@ -53,8 +69,10 @@ main{
 .countdown {
     display: grid;
     margin: 1em auto;
-    width: 150px;
-    height: 150px
+    width: 175px;
+    height: 175px;
+    align-items: center;
+    margin-top: 40px;
   }
   .countdown::after {
     grid-column: 1;
@@ -142,7 +160,7 @@ main{
   [r] + [r] {
     transform: rotate(-90deg);
     stroke-linecap: round;
-    stroke: #8A9B0F;
+    stroke: #884EFC;
     animation: arc 20s linear infinite;
     animation-name: arc, col;
   }
@@ -154,43 +172,91 @@ main{
   }
   @keyframes col {
     0% {
-      stroke: #8A9B0F;
+      stroke: #884EFC;
     }
     25% {
-      stroke: #F8CA00;
+      stroke: #884EFC;
     }
     50% {
-      stroke: #E97F02;
+      stroke: #E34BF2;
     }
-    75% {
-      stroke: #BD1550;
+    76% {
+      stroke: #E34BF2 ;
+    }
+    78% {
+      stroke: #884EFC;
+    }
+    80% {
+      stroke: #E34BF2;
+    }
+    82% {
+      stroke: #884EFC;
+    }
+    84% {
+      stroke: #E34BF2;
+    }
+    86% {
+      stroke: #884EFC;
+    }
+    88% {
+      stroke: #E34BF2;
+    }
+    90% {
+      stroke: #884EFC;
+    }
+    92% {
+      stroke: #E34BF2;
+    }
+    94% {
+      stroke: #884EFC;
+    }
+    96% {
+      stroke: #E34BF2;
+    }
+    98% {
+      stroke: #884EFC;
     }
     100% {
-      stroke: #490A3D;
+      stroke: #E34BF2;
     }
   }
 
-.draw-button{
+.buttons{
   display: flex;
   justify-content: space-around;
+  width: 320px;
+  margin-top: 20px;
 }
 
 .photo{
   background-color: #5375E6;
-  background-image: ;
+  background-image: url(Resources/Icons/Theming/Light\ Theme/camera_theme_light.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 140px;
   height: 200px;
-  border-radius: 5px; 
+  border-radius: 10px;
+  background-size: 120px 120px; 
+  background-position-x: center;
+  background-position-y: 20px;
+}
+
+.button-txt{
+  font-size: 30;
+  font-family: 'Almarai', sans-serif;
+  text-align: center;
+  margin-top: 155px;
 }
 
 .upload{
   background-color: #5375E6;
-  background-image: ;
+  background-image: url(Resources/Icons/upload.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 140px;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-size: 120px 120px; 
+  background-position-x: center;
+  background-position-y: 20px;
 }
