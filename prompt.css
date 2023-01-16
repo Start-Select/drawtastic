@@ -23,7 +23,8 @@ body{
 }
 
 .font-txt{
-
+  font-family: 'Almarai', sans-serif;
+  text-decoration: none;
 }
 
 header{

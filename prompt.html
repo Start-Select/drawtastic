@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="prompt.css">
     <script src="database.js"></script>
+    <script src="prompt.js"></script>
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="frame"> 
@@ -15,11 +21,13 @@
         <main>
             <p class="font-AN">Choose A Prompt</p>
             <div class="promts">
-                <div class="option"><p class="font-txt">Bear working late</p></div>
-                <div class="option"><p class="font-txt">Car ride to London</p></div>
-                <div class="option"><p class="font-txt">Elf on a shelf</p></div>
-                <div class="option"><p class="font-txt">Astronaut landing on Jupiter</p></div>
-                <div class="option"><p class="font-txt">Cow goes to school</p></div>
+                <a href="draw.html" onclick="prompt()">
+                    <div class="option"><p class="font-txt">Bear working late</p></div>
+                </a>
+                    <div class="option"><p class="font-txt">Car ride to London</p></div>
+                    <div class="option"><p class="font-txt">Elf on a shelf</p></div>
+                    <div class="option"><p class="font-txt">Astronaut landing on Jupiter</p></div>
+                    <div class="option"><p class="font-txt">Cow goes to school</p></div>
             </div>
             <p class="font-AN">Time Has Started!</p>
             <div class="countdown">
