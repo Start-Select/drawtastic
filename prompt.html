@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="prompt.css">
     <script src="database.js"></script>
     <script src="prompt.js"></script>
-    <title>Document</title>
+    <title>Drawtastic</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,21 @@
         <main>
             <p class="font-AN">Choose A Prompt</p>
             <div class="promts">
-                <a href="draw.html" onclick="prompt()">
-                    <div class="option"><p class="font-txt">Bear working late</p></div>
+                <a href="draw.html" onclick="prompt(1)">
+                    <div id="1" class="option"><p class="font-txt">Bear working late</p></div>
                 </a>
-                    <div class="option"><p class="font-txt">Car ride to London</p></div>
-                    <div class="option"><p class="font-txt">Elf on a shelf</p></div>
-                    <div class="option"><p class="font-txt">Astronaut landing on Jupiter</p></div>
-                    <div class="option"><p class="font-txt">Cow goes to school</p></div>
+                <a href="draw.html" onclick="prompt(2)">
+                    <div id="2" class="option"><p class="font-txt">Car ride to London</p></div>
+                </a>
+                <a href="draw.html" onclick="prompt(3)">
+                    <div id="3" class="option"><p class="font-txt">Elf on a shelf</p></div>
+                </a>
+                <a href="draw.html" onclick="prompt(4)">
+                    <div id="4" class="option"><p class="font-txt">Astronaut landing on Jupiter</p></div>
+                </a>
+                <a href="draw.html" onclick="prompt(5)">
+                    <div id="5" class="option"><p class="font-txt">Cow goes to school</p></div>
+                </a>
             </div>
             <p class="font-AN">Time Has Started!</p>
             <div class="countdown">
