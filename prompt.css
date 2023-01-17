@@ -174,19 +174,52 @@ main{
   }
   @keyframes col {
     0% {
-      stroke: #8A9B0F;
+      stroke: #884EFC;
     }
     25% {
-      stroke: #F8CA00;
+      stroke: #884EFC;
     }
     50% {
-      stroke: #E97F02;
+      stroke: #E34BF2;
     }
-    75% {
-      stroke: #BD1550;
+    76% {
+      stroke: #E34BF2 ;
+    }
+    78% {
+      stroke: #884EFC;
+    }
+    80% {
+      stroke: #E34BF2;
+    }
+    82% {
+      stroke: #884EFC;
+    }
+    84% {
+      stroke: #E34BF2;
+    }
+    86% {
+      stroke: #884EFC;
+    }
+    88% {
+      stroke: #E34BF2;
+    }
+    90% {
+      stroke: #884EFC;
+    }
+    92% {
+      stroke: #E34BF2;
+    }
+    94% {
+      stroke: #884EFC;
+    }
+    96% {
+      stroke: #E34BF2;
+    }
+    98% {
+      stroke: #884EFC;
     }
     100% {
-      stroke: #490A3D;
+      stroke: #E34BF2;
     }
   }
 
