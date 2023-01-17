@@ -221,6 +221,11 @@ main{
     }
   }
 
+a{
+  text-decoration: none ;
+  color: black;
+}
+
 .buttons{
   display: flex;
   justify-content: space-around;
