@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+// var mysql = https://unpkg.com/mysql@2.18.1/index.js;
 
 var con = mysql.createConnection({
   host: "192.168.153.126:3306",

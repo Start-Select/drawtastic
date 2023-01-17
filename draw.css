@@ -221,6 +221,10 @@ main{
     }
   }
 
+/* @keyframes audio{
+  25% play-during: url("/Resources/music/drawtastic_5minleft") repeat;
+} */
+
 a{
   text-decoration: none ;
   color: black;
