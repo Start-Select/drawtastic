@@ -1,13 +1,13 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "http://192.168.153.126:8081/ ",
+  host: "192.168.153.126:3306",
   user: "root",
-  password: "drawtastic",
-  database: 'test'
+  password: "draw321",
+  database: "david"
 });
 
 con.connect(function(err) {
-  if (err) throw err;
+  if (err) throw ("nee");
   console.log("Connected!");
 });
