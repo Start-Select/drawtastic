@@ -18,16 +18,14 @@ body{
 }
 
 a{
-
   text-decoration: none ;
-
   color: black;
-
 }
 
 .font-AN{
   font-size: 30;
   margin-top: 20px;
+  font-family: 'Almarai', sans-serif;
 }
 
 .font-txt{
