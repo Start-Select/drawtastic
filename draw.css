@@ -24,7 +24,7 @@ body{
   font-family: 'Almarai', sans-serif;
 }
 
-.font-txt{
+.font-small{
   font-family: 'Almarai', sans-serif;
   font-size: 12;
   text-align: center;
@@ -36,7 +36,7 @@ body{
   width: 300px;
   height: 80px;
 }
-.font-AN{
+.font-txt{
   font-size: 25;
   font-family: 'Almarai', sans-serif;
   text-align: center;
