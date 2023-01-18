@@ -1,1 +1,23 @@
-npm init -y
+{
+  "name": "drawtastic",
+  "version": "1.0.0",
+  "description": "This is the repository for the PWA of DrawTastic",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Start-Select/drawtastic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Start-Select/drawtastic/issues"
+  },
+  "homepage": "https://github.com/Start-Select/drawtastic#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}

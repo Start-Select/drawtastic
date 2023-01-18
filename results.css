@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.frame{
+    background-color: #f0fbf7;
+    width: 360px;
+    height: 740px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+}
+
+.title1{
+    font-family: 'Almarai', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 7.5px;
+}
+
+.title2 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.title3 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.title4 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+header{
+
+}
+
+.back{
+    background-image: url('Resources/Icons/back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+.image-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-frame {
+    background-image: url('Resources/Icons/frame\ for\ 300x255.png');
+    background-repeat: no-repeat;
+    min-width: 360px;
+    min-height: 285px;
+}
+
+.art{
+    position: relative;
+    background-image: url('mask S.jpg');
+    background-size: 100% 100%;
+    width: 300px;
+    height: 225px;
+    top: 30px;
+    margin: auto;
+}
+
+.label{
+    background-image: url(Resources/Icons/label.png);
+    background-size: 100% 100%;
+    width: 200px;
+    height: 25px;
+    margin: auto;
+    margin-top: 5px;
+}
+    
+.image-score{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.score{
+    width: 160px;
+    height: 80px;
+    background-color: #E34BF2;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.procenten{
+    background-color: #884EFC;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.tags{
+    background-color: #B0EEFF;
+    width: 90px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.comments {
+    background-color: #5375E6;
+    min-width: 360px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+a{
+    text-decoration: none ;
+    color: black;
+}
+
+.bt-txt {
+    font-family: 'Almarai', sans-serif;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
