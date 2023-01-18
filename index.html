@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" href="Resources/favicons/apple-touch-icon.png">
     <script src="database.js"></script>
     <script src="index.js"></script>
+    <script src="rating.js"></script>
     <title>Drawtastic</title>
 
     <!-- Font -->
@@ -31,20 +32,26 @@
             <div class="music"></div>
         </header>
         <main>
-            <div class="art"></div>
-            <div class="art2"></div>
+            <a href="rating.html">
+                <div onclick="transfer(1)" id="1" class="art"></div>
+            </a>
+            <a href="rating.html">
+                <div onclick="transfer(2)" id="2" class="art2"></div>
+            </a>
             <div class="art"></div>
             <div class="art"></div>
             <div class="art"></div>
         </main>
         <footer>
-                <div class="rating-icon"></div>
-                <a href="prompt.html">
-                    <div class="draw-button">
-                        <div class="draw-icon"> </div>
-                    </div>
-                </a>
+            <div class="rating-icon"></div>
+            <a href="prompt.html">
+                <div class="draw-button">
+                    <div class="draw-icon"> </div>
+                </div>
+            </a>
+            <a href="results.html">
                 <div class="score-icon"></div>
+            </a>
         </footer> 
     </div>
 </body>

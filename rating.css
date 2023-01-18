@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+}
+
+.frame{
+    background-color: #f0fbf7;
+    width: 360px;
+    height: 740px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+}
+
+.picture-frame {
+    background-image: url('Resources/Icons/frame\ for\ 300x255.png');
+    min-width: 360px;
+    min-height: 285px;
+    margin-top: 30px;
+}
+
+.art-size {
+    position: relative;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 225px;
+    margin: 30px;
+}
+.default{  
+    background-image: url('Resources/favicons/logo-512x512.png');
+}
+
+.art1{
+    background-image: url('mask S.jpg');
+}
+
+.art2{
+    background-image: url('Ilse_anker.png');
+}   
+
+.label {
+    background-image: url('Resources/Icons/label.png');
+    width: 200px;
+    height: 25px;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+
+.lbl-txt{
+    font-family: 'Almarai', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.title2 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.field {
+    width: 260px;
+    height: 40px;
+    margin-top: 15px;
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    height: 60px;
+}
+
+.confirm {
+    background-color: #5375E6;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.confirm:hover {
+    background-color: #5375E6;
+    cursor: pointer;
+}
+
+.bt-txt {
+    font-family: 'Almarai', sans-serif;
+    font-size: 40px;
+    margin-top: 5%;
+}
