@@ -8,6 +8,7 @@
     <link rel="apple-touch-icon" href="Resources/favicons/apple-touch-icon.png">
     <link rel="stylesheet" href="results.css">
     <script src="database.js"></script>
+    <script src="overlaycomment.js"></script>
     <title>Drawtastic</title>
 
         <!-- Font -->
@@ -59,12 +60,13 @@
         </main>
         <footer>
             <!-- place holder -->
-            <a href="comments.html">
-                <div class="comments">
+                <div class="comments" onclick="on()">
                     <p class="bt-txt">Comments</p>
-                </div>
-            </a>
-
+                    <div class="overlay" onclick="off()">
+                        <div class="X">
+                        </div>
+                    </div>
+                </div>  
         </footer>
     </div>
 </body>
