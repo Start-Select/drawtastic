@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rating.css">
+    <script src="database.js"></script>
+    <script src="rating.js"></script>
+    <title>Drawtastic</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+</head>
+<body onload="transfer(10)">
+    <div class="frame"> 
+        <header>
+            <div class="picture-frame">
+                <div id="10" class="art-size default"></div>
+            </div>
+            <div class="label">
+                <p id="lbl" class="lbl-txt">???</p>
+            </div>
+        </header>
+        <main>
+            <p id="title" class="title1">What was the Prompt?</p>
+            <input class="field" type="text" name="guess">
+        </main>
+        <footer>
+            <div class="confirm" onclick="guessed()">
+                <p class="bt-txt">Confirm</p>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
