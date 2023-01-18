@@ -79,24 +79,32 @@ main{
   background: #555;
 }
 
-.art{
-    background-image: url('mask S.jpg');
+.art-size {
     background-size: 100% 100%;
     min-width: 300px;
     min-height: 225px;
     border-radius: 5px;
     margin-top: 45px;
+}
+.art{
+    background-image: url('testing/mask S.jpg');
 }
 
 .art2{
-    background-image: url('Ilse_anker.png');
-    background-size: 100% 100%;
-    min-width: 300px;
-    min-height: 225px;
-    border-radius: 5px;
-    margin-top: 45px;
+    background-image: url('testing/Ilse_anker.png');
 }
 
+.art3{
+    background-image: url('testing/singing_cow.png');
+}
+
+.art4{
+    background-image: url('testing/crab_plane.jpg');
+}
+
+.art5{
+    background-image: url('testing/nemo_cycling.png');
+}
 
 footer{
     background-color: #884EFC;

@@ -43,12 +43,24 @@ header{
 }
 
 .art1{
-    background-image: url('mask S.jpg');
+    background-image: url('testing/mask S.jpg');
 }
 
 .art2{
-    background-image: url('Ilse_anker.png');
-}   
+    background-image: url('testing/Ilse_anker.png');
+}
+
+.art3{
+    background-image: url('testing/singing_cow.png');
+}
+
+.art4{
+    background-image: url('testing/crab_plane.jpg');
+}
+
+.art5{
+    background-image: url('testing/nemo_cycling.png');
+}
 
 .label {
     background-image: url('Resources/Icons/label.png');
@@ -92,6 +104,10 @@ main{
     font-family: 'Almarai', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+.slider {
+    width: 280px;
 }
 
 footer{
