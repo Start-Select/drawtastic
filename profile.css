@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.frame{
+    background-color: #f0fbf7;
+    width: 360px;
+    height: 740px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: auto;
+}
+
+header{
+    height: 62px;
+}
+
+.back{
+    background-image: url('Resources/Icons/back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+.profile{
+    margin-top: 8px;
+    margin-left: 33px;
+    display: flex;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.picture{
+    background-image: url('Resources/profilePictures/Circle/profile_stickman.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+.title {
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.profile-txt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+    margin-left: 10px;
+}
+
+.username{
+    font-family: 'Almarai', sans-serif;
+    font-size: 30px;
+}
+
+.user-info{
+    font-family: 'Almarai', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 360px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.bt{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.bt:hover {
+    cursor: pointer;
+}
+
+.art{
+    background-color: #E34BF2;
+}
+
+.tags{
+    background-color: #5375E6;
+    margin-left: 60px;
+}
+
+.bt-txt{
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4%;
+}
