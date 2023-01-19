@@ -94,7 +94,7 @@ main{
     font-family: 'Almarai', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .field {
@@ -104,10 +104,18 @@ main{
     font-family: 'Almarai', sans-serif;
     font-size: 20px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .slider {
     width: 280px;
+}
+
+.value {
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
 footer{
@@ -117,23 +125,41 @@ footer{
     height: 60px;
 }
 
-.confirm {
+.bt {
     background-color: #5375E6;
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.bt:hover {
+    cursor: pointer;
+}
+
+.confirm {
     width: 200px;
     height: 60px;
     border-radius: 10px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
+    margin-right: 0px;
 }
 
-.confirm:hover {
-    background-color: #5375E6;
-    cursor: pointer;
+.skip {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left : 0px;
 }
 
 .bt-txt {
     font-family: 'Almarai', sans-serif;
     font-size: 40px;
     margin-top: 5%;
+}
+
+.bt-txt2 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 19px;
+    margin-top: 5%;
+    text-align: center;
 }

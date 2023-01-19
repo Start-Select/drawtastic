@@ -1,3 +1,5 @@
+var page = 1;
+
 const images = [
     {
         "id": "0",
@@ -41,17 +43,43 @@ function transfer(id) {
 
         var slider = document.getElementById("slider");
         slider.style.display = 'none';
+        document.getElementById("title2").style.display = 'none';
+        document.getElementById("value").style.display = 'none';
+        document.getElementById("field2").style.display = 'none';
+        document.getElementById("field3").style.display = 'none';
+        document.getElementById("skip").style.display = 'none';
+        page = 1;
     }
     
 }
 function guessed() {
-    var imageID = sessionStorage.getItem("image_id");
-    var prompt = images[imageID].prompt;
-    document.getElementById("lbl").innerHTML = prompt;
-    document.getElementById("title").innerHTML = "The prompt was " + prompt;
-    document.getElementById("title").className = "title2";
-    document.getElementById("field").remove();  
+    if (page == 1) {
+        var imageID = sessionStorage.getItem("image_id");
+        var prompt = images[imageID].prompt;
+        document.getElementById("lbl").innerHTML = prompt;
+        document.getElementById("title").innerHTML = "The prompt was " + prompt;
+        document.getElementById("title").className = "title2";
+        document.getElementById("field").remove();  
 
-    var slider = document.getElementById("slider");
-    slider.style.display = 'block';
+        document.getElementById("title2").style.display = 'block';
+        document.getElementById("value").style.display = 'block';
+        var slider = document.getElementById("slider");
+        slider.style.display = 'block';
+    }
+    if (page == 2) {
+        console.log("next page")
+        var slider = document.getElementById("slider");
+        slider.style.display = 'none';
+        document.getElementById("value").style.display = 'none';
+        document.getElementById("title").innerHTML = "Leave a Comment!";
+        document.getElementById("title").className = "title1";
+        document.getElementById("field2").style.display = 'block';
+        document.getElementById("title2").innerHTML = "Give Tags!";
+        document.getElementById("field3").style.display = 'block';
+        document.getElementById("skip").style.display = 'block';
+    }
+    if (page == 3) {
+        window.location.href = "index.html";
+    }
+    page++;
 }
