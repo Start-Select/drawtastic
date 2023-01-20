@@ -94,12 +94,12 @@ header{
     cursor: pointer;
 }
 
-.art{
-    background-color: #E34BF2;
+.art-bt{
+    background-color: #5375E6;
 }
 
-.tags{
-    background-color: #5375E6;
+.tags-bt{
+    background-color: #E34BF2;
     margin-left: 60px;
 }
 
@@ -108,4 +108,93 @@ header{
     font-size: 20px;
     text-align: center;
     margin-top: 4%;
+}
+
+.content-art{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+.art{
+    width: 300px;
+    height: 225px;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 20px;
+    background-size: 100% 100%;
+}
+
+.p1{
+    background-image: url('testing/cool_cat_rain.jpg');
+}
+
+.p2{
+    background-image: url('testing/learning_to_cycle.jpg');
+}
+
+.date {
+    font-family: 'Almarai', sans-serif;
+    font-size: 12px;
+    text-align: end;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.score {
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    margin-top: 190px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.guess{
+    font-family: 'Almarai', sans-serif;
+    font-size: 18px;
+    text-align: end;
+    margin-top: -20px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.txt-title{
+    font-family: 'Almarai', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+}
+
+.tags{
+    background-color: #B0EEFF;
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.tags-txt {
+    font-family: 'Almarai', sans-serif;
+    font-size: 19px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.amount{
+    margin-top: 35px;
+    margin-left: 5px;
+    font-family: 'Almarai', sans-serif;
+    font-size: 25px;
+}
+
+.content-tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -5px;
 }
